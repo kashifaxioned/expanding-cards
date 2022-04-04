@@ -99,9 +99,8 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
-  margin: 0 auto;
+  width: 89%; 
+  margin: 70px auto;
 }
 /*=================================
   Header styling starts here
@@ -120,9 +119,44 @@ li {
   main styling starts here
 =================================*/
 
+.section-title {
+  font-size: 30px;
+  font-weight: 600;
+}
 
+.card-section {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
+.card {
+  flex-basis: 7%;
+  flex-shrink: 0;
+  position: relative;
+}
 
+.card figure { height: 100%; }
+
+.card-img {
+  height: 100%;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.card-title { display: none; }
+
+.expand .card-title {
+  display: block;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  color: #fff;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.expand { flex-basis: 68%; }
 
 
 
